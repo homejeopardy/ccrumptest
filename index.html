@@ -1,78 +1,57 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width,initial-scale=1">
-  <title>Catherine Crump – UC Berkeley School of Law</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Catherine Crump - Home</title>
   <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
-  <style>
-    .bg-berkeley-blue { background-color: #003262; }
-    .text-berkeley-blue { color: #003262; }
-  </style>
 </head>
-<body class="bg-gray-50 text-gray-900">
+<body class="bg-gray-100 text-gray-900">
+
   <!-- Navbar -->
-  <nav class="bg-berkeley-blue text-white p-4">
-    <div class="container mx-auto flex justify-between items-center">
-      <div>
-        <span class="font-semibold text-lg">Catherine Crump</span>
-      </div>
-      <div class="space-x-6">
+  <nav class="bg-blue-900 text-white">
+    <div class="container mx-auto px-6 py-4 flex justify-between items-center">
+      <a href="index.html" class="text-xl font-semibold">Catherine Crump</a>
+      <div class="space-x-4">
         <a href="index.html" class="hover:underline">Home</a>
+        <a href="projects.html" class="hover:underline">Projects</a>
         <a href="publications.html" class="hover:underline">Publications</a>
+        <a href="talks.html" class="hover:underline">Talks</a>
+        <a href="#contact" class="hover:underline">Contact</a>
       </div>
     </div>
   </nav>
 
-  <!-- Hero -->
-  <section class="container mx-auto px-6 py-12 grid md:grid-cols-3 gap-8 items-center">
-    <div class="md:col-span-1">
-      <img src="images/face.png" alt="Catherine Crump" class="rounded-lg shadow-lg w-full object-cover">
+  <!-- Hero Section -->
+  <header class="bg-white shadow">
+    <div class="container mx-auto px-6 py-12 text-center">
+      <h1 class="text-4xl font-bold mb-4">Catherine Crump</h1>
+      <p class="text-lg text-gray-700">Director, Samuelson Law, Technology & Public Policy Clinic • UC Berkeley</p>
     </div>
+  </header>
 
-    <div class="md:col-span-2">
-      <h1 class="text-3xl font-bold mb-3">Catherine Crump</h1>
-      <p class="text-lg mb-4">
-        Clinical Professor of Law<br>
-        Director, Samuelson Law, Technology & Public Policy Clinic<br>
-        UC Berkeley School of Law
+  <!-- About -->
+  <main class="container mx-auto px-6 py-12">
+    <section class="mb-12">
+      <h2 class="text-2xl font-semibold mb-4">About</h2>
+      <p class="text-gray-700 leading-relaxed">
+        Catherine Crump is a clinical professor of law at UC Berkeley School of Law and director of the Samuelson Law,
+        Technology & Public Policy Clinic. Her work focuses on issues at the intersection of civil liberties and technology,
+        including surveillance, privacy, and freedom of expression.
       </p>
+    </section>
 
-      <p class="mb-4">
-        Professor Crump teaches, writes, and litigates at the intersection of technology and civil liberties. The Samuelson Clinic supervises student work on litigation, policy, and community-engaged projects advancing transparency, privacy, and accountable government use of technology.
-      </p>
+    <!-- Contact -->
+    <section id="contact" class="mb-12">
+      <h2 class="text-2xl font-semibold mb-4">Contact</h2>
+      <p class="text-gray-700">For inquiries, please email: <a href="mailto:ccrump@berkeley.edu" class="text-blue-700 hover:underline">ccrump@berkeley.edu</a></p>
+    </section>
+  </main>
 
-      <p>
-        <a href="publications.html" class="text-berkeley-blue font-semibold hover:underline">View Publications</a>
-      </p>
-    </div>
-  </section>
-
-  <!-- Projects -->
-  <section id="projects" class="bg-white py-12">
-    <div class="container mx-auto px-6">
-      <h2 class="text-2xl font-semibold mb-4">Projects</h2>
-      <ul class="list-disc pl-6 space-y-2 text-lg">
-        <li><strong>Surveillance Oversight</strong> — Supporting oversight frameworks and public records work for government use of surveillance technologies.</li>
-        <li><strong>Digital Rights Advocacy</strong> — Litigation and policy work focused on privacy, free expression, and government accountability.</li>
-        <li><strong>Automated Decision-Making</strong> — Research and clinic projects addressing fairness, transparency, and due process in public-sector automated systems.</li>
-      </ul>
-    </div>
-  </section>
-
-  <!-- Contact -->
-  <section id="contact" class="bg-gray-100 py-12">
-    <div class="container mx-auto px-6">
-      <h2 class="text-2xl font-semibold mb-3">Contact</h2>
-      <p>Email: <a href="mailto:ccrump@law.berkeley.edu" class="text-berkeley-blue hover:underline">ccrump@law.berkeley.edu</a></p>
-      <p>UC Berkeley School of Law<br>Berkeley, CA 94720</p>
-    </div>
-  </section>
-
-  <footer class="bg-berkeley-blue text-white py-4 mt-8">
-    <div class="container mx-auto px-6 text-center text-sm">
-      © 2025 Catherine Crump – UC Berkeley School of Law
-    </div>
+  <!-- Footer -->
+  <footer class="bg-blue-900 text-white text-center py-6 mt-12">
+    <p>&copy; 2025 Catherine Crump. All rights reserved.</p>
   </footer>
+
 </body>
 </html>
